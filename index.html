@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas 13 | Kevin Raihan Aditya</title>
+  <link rel="stylesheet" href="./assets/css/w3.css">
+</head>
+
+<body>
+  <div class="w3-container" style="background-color: black;">
+    <center>
+        <img src="./assets/img/logo.png" alt="" width="20%" height="250px">
+    </center>
+  </div>
+
+  <div class="w3-bar w3-black w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openProduk('purpose_tour')">Purpose Tour</button>
+    <button class="w3-bar-item w3-button" onclick="openProduk('mastermind')">Mastermind</button>
+    <button class="w3-bar-item w3-button" onclick="openProduk('Vlone')">Vlone</button>
+    <button class="w3-bar-item w3-button" onclick="openProduk('Ellesse')">Ellesse</button>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Hoodie Stussy</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_stussy_eightball')">Stussy Eightball</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_stussy_crown')">Stussy Crown</button>
+        </div>
+    </div>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Kaos Stussy</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="openProduk('kaos_stussy_liberty')">Stussy Liberty</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('kaos_stussy_crown')">Stussy Crown</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('kaos_stussy_skateman')">Stussy Skateman</button>
+        </div>
+    </div>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Hoodie ADLV</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_adlv_2')">ADLV Season 2</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_adlv_3')">ADLV Season 3</button>
+        </div>
+    </div>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Hoodie Ih Nom Uh Nit</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_ihnom_1')">Ih Nom Uh Nit</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('hoodie_ihnom_2')">Ih Nom Uh Nit</button>
+        </div>
+    </div>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Kaos Ih Nom Uh Nit</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="openProduk('kaos_ihnom_1')">Ih Nom Uh Nit</button>
+          <button class="w3-bar-item w3-button" onclick="openProduk('kaos_ihnom_2')">Ih Nom Uh Nit</button>
+        </div>
+    </div>
+
+  </div>
+
+  <div id="purpose_tour" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Hoodie Purpose Tour Justin Bieber</h2>
+      <img src="./assets/img/purpose_tour.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="mastermind" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Hoodie Mastermind Japan</h2>
+      <img src="./assets/img/mastermind.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="Vlone" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Vlone</h2>
+      <img src="./assets/img/vlone.jpeg" alt="vlone" width="300px">
+    </center>
+  </div>
+
+  <div id="Ellesse" class="w3-container produk w3-animate-zoom" style="display: none;">
+    <center>
+      <h2>Ellesse</h2>
+      <img src="./assets/img/ellesse.jpeg" alt="ellesse" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_stussy_eightball" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Stussy Eight Ball</h2>
+      <img src="./assets/img/hoodie_stussy/hoodie_stussy_1.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_stussy_crown" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Stussy Crown</h2>
+      <img src="./assets/img/hoodie_stussy/hoodie_stussy_2.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="kaos_stussy_liberty" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Stussy Liberty</h2>
+      <img src="./assets/img/kaos_stussy/kaos_stussy_1.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="kaos_stussy_crown" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Stussy Crown</h2>
+      <img src="./assets/img/kaos_stussy/kaos_stussy_2.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="kaos_stussy_skateman" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Stussy Skateman</h2>
+      <img src="./assets/img/kaos_stussy/kaos_stussy_3.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_adlv_2" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>ADLV Season 2</h2>
+      <img src="./assets/img/hoodie_adlv/adlv_1.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_adlv_3" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>ADLV Season 3</h2>
+      <img src="./assets/img/hoodie_adlv/adlv_2.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_ihnom_1" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Ih Nom Uh Nit</h2>
+      <img src="./assets/img/hoodie_ihnom/hoodie_ihnom_1.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="hoodie_ihnom_2" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Ih Nom Uh Nit</h2>
+      <img src="./assets/img/hoodie_ihnom/hoodie_ihnom_2.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="kaos_ihnom_1" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Ih Nom Uh Nit</h2>
+      <img src="./assets/img/kaos_ihnom/kaos_ihnom_1.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <div id="kaos_ihnom_2" class="w3-container produk w3-animate-bottom" style="display: none;">
+    <center>
+      <h2>Ih Nom Uh Nit</h2>
+      <img src="./assets/img/kaos_ihnom/kaos_ihnom_2.jpeg" alt="stussy" width="300px">
+    </center>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
